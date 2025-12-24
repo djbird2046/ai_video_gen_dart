@@ -1,5 +1,5 @@
 ## 0.1.0
 
 - Initial public release.
-- Supports Sora 2, Vertex Veo (predictLongRunning + fetchPredictOperation), Tongyi JiMENG 3.0, Kuaishou Kling, and Tongyi Wanxiang generators.
+- Supports OpenAI Sora 2, Google Vertex Veo (predictLongRunning + fetchPredictOperation), ByteDance JiMeng 3.0, Kwai Kling, and Alibaba WanXiang generators.
 - Includes polling helper (`VideoGenerationClient`), proxy-aware HTTP defaults, and runnable examples for each provider.
