@@ -131,6 +131,7 @@ class ClientOptions {
 
   final int? pollIntervalMs;
   final int? maxPollTimeMs;
+
   /// Directory to save downloaded media outputs.
   /// Falls back to a system temp folder if creation is not permitted.
   final String? downloadDir;
@@ -147,6 +148,7 @@ class PollOptions {
   final int? pollIntervalMs;
   final int? maxPollTimeMs;
   final String? apiKey;
+
   /// Directory to save downloaded media outputs.
   /// Falls back to a system temp folder if creation is not permitted.
   final String? downloadDir;

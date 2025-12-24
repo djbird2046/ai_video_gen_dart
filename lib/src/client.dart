@@ -215,12 +215,12 @@ class VideoGenerationClient {
   }
 }
 
-  Future<String> _downloadBytesToDir(
-    Uint8List bytes,
-    String directoryPath,
-    VideoGenerator generator,
-    String requestId,
-  ) async {
+Future<String> _downloadBytesToDir(
+  Uint8List bytes,
+  String directoryPath,
+  VideoGenerator generator,
+  String requestId,
+) async {
   final dir = await _prepareDownloadDir(directoryPath);
 
   final baseName =
