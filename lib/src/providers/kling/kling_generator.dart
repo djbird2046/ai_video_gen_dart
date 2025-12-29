@@ -45,7 +45,7 @@ class KlingGenerator extends BaseHttpGenerator {
 
   @override
   String? get promptGuideUrl =>
-      'https://docs.qingque.cn/d/home/eZQDKi7uTmtUr3iXnALzw6vxp?identityId=26L1FFNIZ7r#section=h.j6c40npi1fan';
+      'https://docs.qingque.cn/d/home/eZQDKi7uTmtUr3iXnALzw6vxp';
 
   @override
   GeneratorCapabilities? get capabilities => _klingCapabilities;
